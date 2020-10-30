@@ -8,9 +8,7 @@ def bubbleSort(vec):
         for i in range(index):
             if vec[i]>vec[i+1]:
                 control = True
-                aux = vec[i]
-                vec[i] = vec[i+1]
-                vec[i+1] = aux
+                vec[i], vec[i+1] = vec[i+1], vec[i]
         index = index - 1
     print(vec)
     
