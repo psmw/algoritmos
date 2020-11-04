@@ -10,9 +10,7 @@ def bubbleSort(vec):
                 control = True
                 vec[i], vec[i+1] = vec[i+1], vec[i]
         index = index - 1
-    print(vec)
-    
-    
+    print(vec)   
     
 randVector=[random.randint(1,100000) for i in range(50)]
 
