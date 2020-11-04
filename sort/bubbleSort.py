@@ -12,7 +12,7 @@ def bubbleSort(vec):
         index = index - 1
     print(vec)   
     
-randVector=[random.randint(1,100000) for i in range(50)]
+randVector=[random.randint(1,100) for i in range(7)]
 
 print(randVector)
 bubbleSort(randVector)
